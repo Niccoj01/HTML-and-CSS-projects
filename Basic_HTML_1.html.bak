@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<main
+	<script src="Basic_JavaScript_1.js"></script>
+<body
+	<p> <font color= "F340E1" face="Calibri" size="8" > This is my first paragraph, I'm writing this in a purple/pinkish color. 
+this course has been challenging but good so far. I'm excited to see whats to come down the road in 
+this course and in the bootcamp.</font></p>
+	<p> <font color= "DC143C" face="impact" size="7" > This is my second paragraph. I'm writing this in a color called 'Crimson'. 
+	While I write this page, I am doing it step by step. In between steps I am saving my progress and 
+	refreshing the browser to see if I have made any mistakes along the way as I'm typing this. 
+	</font></p>
+<p><b> This is bold, </b><i> This is italicized </i> and <u> This is underlined</u></p>
+<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Earth_Western_Hemisphere_transparent_background.png/1200px-Earth_Western_Hemisphere_transparent_background.png" 
+	alt= "This is earth" width="500" height="600" </img> 
+
+
+
+
+</body>
+</main>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> A Title </title>
+	</head>
+	<body>
+		<h1> A heading </h1>
+		
+	<div style="color: blue">
+		<h2> My div heading here</h2>
+		<p> my div paragraph here</p>
+	</div>
+	<style>
+	p {color:green;}
+	</style>
+	<p> this paragraph is written in red.</p>
+<style>
+	h3 {color:crimson; 
+	text-align: center;
+	}
+</style>
+<h3> Another heading </h3>
+
+
+
+
+
+
+</body>
+<footer> Niccojimenez@icloud.com
+</footer>
+</html>
