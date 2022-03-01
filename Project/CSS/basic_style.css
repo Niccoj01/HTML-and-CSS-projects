@@ -20,15 +20,16 @@ h1 {
     SELECT ALL SQUARES IN THE ARRAY
     --------------------------------------- */
 .container .squares:nth-child(-n+4) {
-    background-image: url("..\images\icons\smileyface2.png");
+    background-image: url("../images/icons/smileyface2.png");
     color: #fff;
     float: left;
     width: 100px;
+    height: 100px;
     margin: 5px;
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
-    transition: transform .5s case-in-out;
+    transition: transform .5s ease-in-out;
 }
 
 /*--------------------------------
@@ -67,12 +68,12 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
     HOVER, TRANSLATE, TRANSFORM EFFECTS
 -------------------------------------------*/
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("..\images\icons\smileyface1.png");
+    background-image: url("../images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(2.5,.2.3,2);
+    animation-timing-function: cubic-bezier(2.5,.2,.3,.2);
 }
 
 .squares:nth-child(1):hover {
