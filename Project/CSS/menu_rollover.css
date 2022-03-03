@@ -39,7 +39,7 @@ body {
     cursor: pointer;
 }
 
-.menu li:hover ul {
+.menu li:hover {
     background-color: #5eafdf;
     color: #fff;
 }
