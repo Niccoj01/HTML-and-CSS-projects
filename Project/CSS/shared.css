@@ -151,7 +151,7 @@ section {
 Home SECTION STYLES
 ============================= */
 #home {
-    background: url("..\images\planets.png") no-repeat 50% 50%;
+    background: url("../images/planets.png") no-repeat 50% 50%;
     background-attachment: fixed;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
