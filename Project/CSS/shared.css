@@ -151,11 +151,11 @@ section {
 Home SECTION STYLES
 ============================= */
 #home {
-    background: url("..\images\planets.png") no=repeat 50% 50%;
+    background: url("..\images\planets.png") no-repeat 50% 50%;
     background-attachment: fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     width: 100%;
     display: block;
@@ -347,3 +347,29 @@ footer styles
 /*-----------------------------------
 @media squares
 ------------------------------- */
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 28px ;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
